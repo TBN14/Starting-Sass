@@ -2,7 +2,6 @@
     max-width: $grid-width;
     min-width: -webkit-fill-available;
     margin: 0 auto;
-    background-color: gainsboro;
     
     &:not(:last-child){
         margin-bottom: $gutter-vertical;
@@ -11,10 +10,7 @@
     @include clearfix;
 
     [class^="col-"]{
-        color: white;
-        background-color: forestgreen;
         float: left;
-         line-height: normal;//Revisa donde hay mas line height
 
         &:not(:last-child){
             margin-right: $gutter-horizontal;
